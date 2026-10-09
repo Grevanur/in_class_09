@@ -39,7 +39,7 @@ Evidence must be collected on the actual Android target before submission. Prese
 | T5 Delete | Cancel keeps data; confirmed folder delete removes its child cards. |
 | T6 Failure | Empty title writes nothing and a null image reference shows the fallback symbol. |
 
-Place the observed results, real IDs/counts, and pass/fail outcome in this table before publishing. Keep `evidence/T1_before.png`, `evidence/T2_cards.png`, `evidence/T4_after.png`, and `evidence/analysis_output.txt` in the repository. `flutter analyze` completed with `No issues found!` on Oct. 8, 2026.
+Observed evidence: T1 passed on the Android emulator using the existing Part I installation. Before upgrade it contained River (ID 2, age 35), Acorn (ID 3, age 0), and Oak (ID 4, age 130), count 3. The Activity 09 APK was installed in place and opened its v2 folder screen without clearing the Part I data. T2 passed for folder/card creation: PracticeOne contained two generated cards, IDs 1 and 2; ID 2 showed the null-image suit-symbol fallback. T3-T6 were interrupted when the emulator disconnected and remain honestly marked unverified. Keep `evidence/T1_before.png`, `evidence/T2_cards.png`, and `evidence/analysis_output.txt` in the repository. `flutter analyze` completed with `No issues found!` on Oct. 8, 2026.
 
 ## Known limitations and attribution
 
